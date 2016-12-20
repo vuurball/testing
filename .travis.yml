@@ -4,3 +4,5 @@ php:
 script: phpunit Test.php
 services:
 - mysql
+before_install:
+  - mysql -e 'CREATE DATABASE db_test;'
