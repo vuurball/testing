@@ -11,7 +11,7 @@ class RealClass
   {
     return $i*2;
   }
-  
+  //
  public function func3()
   {
     return 2;
